@@ -13,6 +13,20 @@ echo ============================================================
 echo [*] VortexAI Kurulum Basliyor...
 echo ============================================================
 
+python -m pip --version >nul 2>&1
+if errorlevel 1 (
+    echo [*] pip bulunamadi, yukleniyor...
+    python -m ensurepip --upgrade
+)
+
+if not exist ".venv\" (
+    echo [*] Sanal ortam olusturuluyor...
+    python -m venv .venv
+    echo [*] Gerekli kutuphaneler yukleniyor...
+    pip install --upgrade pip
+    pip install -r requirements.txt
+)
+
 call .venv\Scripts\activate.bat
 
 echo.
