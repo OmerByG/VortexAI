@@ -16,8 +16,8 @@
 
 ## ✨ Oluştur
 
-1. Açılan terminale `py generate.py` yaz.
-2. Terminale yazı yazmaya başlayabilirsin.
+1. Terminale `py generate.py` yaz.
+2. Terminalde yazışmaya başlayabilirsin.
 
 ## ⚙️ Ayarla
 
