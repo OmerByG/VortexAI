@@ -4,23 +4,21 @@
   <sub>Kendi küçük yapay zekanı eğit ve konuştur 🌐</sub>
 </p>
 
----
-
-## 🚀 Kurulum
+## 🛠️ Kurulum
 
 1. **Python 3.10+** sürümünün kurulu olduğundan emin ol.  
 2. `setup.bat` dosyasını çalıştır.
 
-## 🚀 Eğitim
+## 🎓 Eğitim
 
 1. `data.json` dosyasını kendine göre uygula.
-2. Terminal e `py train.py` yaz.
+2. Terminale `py train.py` yaz.
 
-## 🚀 Oluştur
+## ✨ Oluştur
 
-1. Açılan terminal e `py generate.py` yaz.
-2. Terminale yazı yazmaya başlayabilirsin `py generate.py` yaz.
+1. Açılan terminale `py generate.py` yaz.
+2. Terminale yazı yazmaya başlayabilirsin.
 
-## 🚀 Ayarla
+## ⚙️ Ayarla
 
 1. `config.json` dosyasını kendine göre uygula.
