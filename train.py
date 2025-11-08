@@ -1,196 +1,125 @@
 import torch
-import torch.nn as nn
-from torch.utils.data import DataLoader
+from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer
+from torch.utils.data import Dataset
 import json
-import os
-import re
-import time
-import sys
-
-from model import VortexModel, TextDataset
-
 
 def load_config():
     try:
         with open("config.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        print("❌ config.json bulunamadı!")
+        print("[*] config.json bulunamadı!")
         return None
 
+class VortexDataset(Dataset):
+    def __init__(self, data_file, tokenizer, max_length=128):
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        
+        with open(data_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
 
-def save_checkpoint(model, optimizer, epoch, loss, best_loss, config):
-    checkpoint_dir = config["files"]["checkpoint_dir"]
-    model_name = config["files"]["model_name"]
-
-    os.makedirs(checkpoint_dir, exist_ok=True)
-
-    checkpoint = {
-        "epoch": epoch,
-        "model_state_dict": model.state_dict(),
-        "optimizer_state_dict": optimizer.state_dict(),
-        "loss": loss,
-        "best_loss": best_loss,
-    }
-
-    checkpoint_path = os.path.join(checkpoint_dir, f"{model_name}_last.pth")
-
-    if os.path.exists(checkpoint_path):
-        try:
-            os.remove(checkpoint_path)
-        except Exception as e:
-            print(f"⚠️ Checkpoint silinemedi: {e}")
-
-    torch.save(checkpoint, checkpoint_path)
-
-    if loss <= best_loss:
-        best_path = os.path.join(checkpoint_dir, f"{model_name}_best.pth")
-        torch.save(checkpoint, best_path)
-        return True
-
-    return False
-
-
-def load_checkpoint(model, optimizer, config):
-    checkpoint_dir = config["files"]["checkpoint_dir"]
-    model_name = config["files"]["model_name"]
-    checkpoint_path = os.path.join(checkpoint_dir, f"{model_name}_last.pth")
-
-    if os.path.exists(checkpoint_path):
-        print(f"📂 Checkpoint bulundu: {checkpoint_path}")
-        checkpoint = torch.load(checkpoint_path)
-
-        model.load_state_dict(checkpoint["model_state_dict"])
-        optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
-
-        start_epoch = checkpoint["epoch"] + 1
-        best_loss = checkpoint["best_loss"]
-
-        print(f"✅ Eğitim Epoch {start_epoch}'den devam edecek")
-        print(f"📊 Son Loss: {checkpoint['loss']:.4f}")
-        print(f"🏆 En İyi Loss: {best_loss:.4f}")
-
-        return start_epoch, best_loss
-    else:
-        print("⚠️ Checkpoint bulunamadı, sıfırdan başlıyor...")
-        return 0, float("inf")
-
+        self.sentences = []
+        for item in data:
+            self.sentences.append(item["text"])
+        
+        print(f"[*] {len(self.sentences)} cümle yüklendi")
+    
+    def __len__(self):
+        return len(self.sentences)
+    
+    def __getitem__(self, idx):
+        sentence = self.sentences[idx]
+        
+        encoding = self.tokenizer(
+            sentence,
+            max_length=self.max_length,
+            padding="max_length",
+            truncation=True,
+            return_tensors="pt"
+        )
+        
+        input_ids = encoding["input_ids"].squeeze()
+        attention_mask = encoding["attention_mask"].squeeze()
+        
+        return {
+            "input_ids": input_ids,
+            "attention_mask": attention_mask,
+            "labels": input_ids.clone()
+        }
 
 def train():
     print("=" * 60)
-    print("🚀 VortexAI Eğitim Başlatıldı")
+    print("[*] VortexAI - GPT-2 Türkçe Fine-tuning")
     print("=" * 60)
-
+    
     config = load_config()
     if not config:
         return
-
+    
     data_file = config["files"]["data_file"]
-    vocab_file = config["files"]["vocab_file"]
-
+    model_name = config["files"]["model_name"]
+    checkpoint_dir = config["files"]["checkpoint_dir"]
+    
+    print("\n📥 Türkçe GPT-2 modeli indiriliyor...")
+    base_model = config["model"]["base_model"]
+    
+    model = AutoModelForCausalLM.from_pretrained(base_model)
+    tokenizer = AutoTokenizer.from_pretrained(base_model)
+    
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    
+    print(f"[*] Model yüklendi: {base_model}")
+    print(f"[*] Model parametreleri: {model.num_parameters():,}")
+    
+    print("\n[*] Dataset hazırlanıyor...")
     try:
-        with open(data_file, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        text = " ".join([item["sentence"] for item in data])
-        text = text.lower()
-        text = re.sub(r"[^a-zA-ZçğıöşüÇĞİÖŞÜ0-9\s]", "", text)
-        text = text.split()
-        print(f"✅ {len(text)} kelime yüklendi")
+        dataset = VortexDataset(data_file, tokenizer)
     except FileNotFoundError:
-        print(f"❌ {data_file} bulunamadı! (python dategen.py çalıştır)")
+        print(f"[*] {data_file} bulunamadı!")
         return
-
-    try:
-        with open(vocab_file, "r", encoding="utf-8") as f:
-            vocab = json.load(f)["word2idx"]
-        vocab_size = len(vocab)
-        print(f"✅ Kelime dağarcığı: {vocab_size} kelime")
-    except FileNotFoundError:
-        print(f"❌ {vocab_file} bulunamadı! (python tokenizer.py çalıştır)")
-        return
-
-    batch_size = config["training"]["batch_size"]
-    dataset = TextDataset(text, vocab)
-    loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
-    print(f"✅ Dataset hazır: {len(dataset)} örnek")
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"💻 Cihaz: {device}")
-
-    model = VortexModel(
-        vocab_size=vocab_size,
-        embed_dim=config["model"]["embed_dim"],
-        hidden_dim=config["model"]["hidden_dim"],
-        num_layers=config["model"]["num_layers"],
-        dropout=config["model"]["dropout"],
-    ).to(device)
-
-    criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(model.parameters(), lr=config["training"]["learning_rate"])
-
-    start_epoch, best_loss = load_checkpoint(model, optimizer, config)
-
+    
+    training_args = TrainingArguments(
+        output_dir=checkpoint_dir,
+        num_train_epochs=config["training"]["epochs"],
+        per_device_train_batch_size=config["training"]["batch_size"],
+        learning_rate=config["training"]["learning_rate"],
+        save_steps=config["training"]["save_every"] * len(dataset) // config["training"]["batch_size"],
+        save_total_limit=3,
+        logging_steps=10,
+        logging_dir=f"{checkpoint_dir}/logs",
+        report_to="none",
+        fp16=torch.cuda.is_available(),
+    )
+    
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=dataset,
+    )
+    
     print("\n" + "=" * 60)
-    print("📚 Eğitim Başlıyor...")
-    print("💡 Ctrl+C ile durdurup devam edebilirsin")
+    print("[*] Eğitim başlıyor...")
+    print("[*] Ctrl+C ile durdurup devam edebilirsiniz")
     print("=" * 60 + "\n")
-
-    epochs = config["training"]["epochs"]
-    save_every = config["training"]["save_every"]
-
-    bar_length = 20
-
+    
     try:
-        for epoch in range(start_epoch, epochs):
-            start_time = time.time()
-            model.train()
-            total_loss = 0
-
-            for x, y in loader:
-                x, y = x.to(device), y.to(device)
-
-                pred, _ = model(x)
-                loss = criterion(pred, y)
-
-                optimizer.zero_grad()
-                loss.backward()
-                optimizer.step()
-
-                total_loss += loss.item()
-
-            avg_loss = total_loss / len(loader)
-            progress = int(((epoch + 1) / epochs) * 20)
-
-            bar = "█" * progress + "-" * (20 - progress)
-            elapsed_time = time.time() - start_time
-
-            sys.stdout.write(
-                f"\r📘 Epoch {epoch+1:3d}/{epochs} |{bar}| "
-                f"Loss: {avg_loss:.4f} | Best: {best_loss:.4f} | ⏱️ {elapsed_time:.2f}s"
-            )
-            sys.stdout.flush()
-
-            if epoch % 5 == 0 or epoch == epochs - 1:
-                sys.stdout.write("\n")
-
-            if epoch % save_every == 0 or epoch == epochs - 1:
-                is_best = save_checkpoint(model, optimizer, epoch, avg_loss, best_loss, config)
-                if is_best:
-                    best_loss = avg_loss
-
+        trainer.train()
     except KeyboardInterrupt:
-        print("\n⚠️ Eğitim durduruldu, son durum kaydediliyor...")
-        save_checkpoint(model, optimizer, epoch, avg_loss, best_loss, config)
-        print("✅ Checkpoint kaydedildi (devam edebilirsin)")
-
-    final_path = f"{config['files']['model_name']}{config['files']['model_version']}.pth"
-    torch.save(model.state_dict(), final_path)
-
+        print("\n[*] Eğitim durduruldu!")
+        trainer.save_model(f"{checkpoint_dir}/interrupted")
+        print("[*] Model kaydedildi")
+        return
+    
+    final_path = f"{model_name}"
+    trainer.save_model(final_path)
+    tokenizer.save_pretrained(final_path)
+    
     print("\n" + "=" * 60)
-    print("✅ Eğitim tamamlandı!")
-    print(f"📁 Final model: {final_path}")
-    print(f"📁 Checkpoints: {config['files']['checkpoint_dir']}/")
-    print("💡 Metin üretmek için: python generate.py")
+    print("[*] Eğitim tamamlandı!")
+    print(f"[*] Final model: {final_path}/")
+    print(f"[*] Checkpoints: {checkpoint_dir}/")
     print("=" * 60)
 
 
