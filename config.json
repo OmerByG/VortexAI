@@ -1,0 +1,21 @@
+{
+  "model": {
+    "embed_dim": 128,
+    "hidden_dim": 256,
+    "num_layers": 2,
+    "dropout": 0.2
+  },
+  "training": {
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "epochs": 100,
+    "save_every": 10
+  },
+  "files": {
+    "data_file": "data.json",
+    "vocab_file": "vocab.json",
+    "checkpoint_dir": "checkpoints",
+    "model_version": 1,
+    "model_name": "vortex"
+  }
+}

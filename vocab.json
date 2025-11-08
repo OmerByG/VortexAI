@@ -1,0 +1,43 @@
+{
+  "word2idx": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "<BOS>": 2,
+    "<EOS>": 3,
+    "ben": 4,
+    "gidiyorum": 5,
+    "konuşuyorum": 6,
+    "mutlu": 7,
+    "nasılsın": 8,
+    "ne": 9,
+    "nerede": 10,
+    "o": 11,
+    "sen": 12,
+    "uyuyorum": 13,
+    "yapıyorum": 14,
+    "yorgun": 15,
+    "üzgün": 16
+  },
+  "idx2word": {
+    "0": "<PAD>",
+    "1": "<UNK>",
+    "2": "<BOS>",
+    "3": "<EOS>",
+    "4": "ben",
+    "5": "gidiyorum",
+    "6": "konuşuyorum",
+    "7": "mutlu",
+    "8": "nasılsın",
+    "9": "ne",
+    "10": "nerede",
+    "11": "o",
+    "12": "sen",
+    "13": "uyuyorum",
+    "14": "yapıyorum",
+    "15": "yorgun",
+    "16": "üzgün"
+    
+  },
+  "vocab_size": 17,
+  "total_words": 488
+}

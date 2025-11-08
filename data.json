@@ -1,0 +1,5130 @@
+[
+  {
+    "sentence": "o nerede?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nerede?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen ne?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yorgun gidiyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın o uyuyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yorgun gidiyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen mutlu gidiyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yorgun uyuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen ne?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben gidiyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o nasılsın.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne ben gidiyorum?",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yapıyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen uyuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede ben uyuyorum.",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nerede?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın ben uyuyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen mutlu uyuyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun yapıyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne o konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben mutlu konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın ben konuşuyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben gidiyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o nerede?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne o konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen ne.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yapıyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben uyuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yorgun uyuyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nasılsın?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın o gidiyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o gidiyorum.",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben üzgün gidiyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun gidiyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yapıyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun yapıyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne sen gidiyorum?",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen mutlu uyuyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın o yapıyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen uyuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o konuşuyorum.",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben konuşuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o mutlu yapıyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın ben yapıyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o ne?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o gidiyorum.",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın o yapıyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne ben konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yapıyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yapıyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen üzgün uyuyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın sen gidiyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben gidiyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben uyuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede sen konuşuyorum?",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o konuşuyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın o gidiyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yorgun uyuyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yapıyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben uyuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yorgun gidiyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o yapıyorum?",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen üzgün gidiyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun gidiyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben ne?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yorgun gidiyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o uyuyorum.",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen ne?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen üzgün gidiyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen üzgün konuşuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yorgun konuşuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o nasılsın?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nasılsın.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne o yapıyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nasılsın.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yapıyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben mutlu gidiyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben ne.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne sen yapıyorum?",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nasılsın.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yapıyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen mutlu uyuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne sen uyuyorum?",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben ne?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne o gidiyorum?",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o uyuyorum?",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın ben gidiyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nerede.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen ne?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nasılsın.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nerede?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın sen yapıyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun uyuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun uyuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben konuşuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun gidiyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben uyuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben ne?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o konuşuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o ne?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen uyuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın ben yapıyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın sen yapıyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın ben gidiyorum?",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o konuşuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun konuşuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o ne?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o nasılsın?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben konuşuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen üzgün konuşuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yapıyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen ne.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen gidiyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yapıyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o uyuyorum.",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın o gidiyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yapıyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne o yapıyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen uyuyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o nerede?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben ne.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben gidiyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne sen konuşuyorum?",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben ne.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nerede?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o nasılsın?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o ne.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o ne.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o uyuyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nasılsın.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben üzgün konuşuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nerede.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun gidiyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun gidiyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun gidiyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben mutlu yapıyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun konuşuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun yapıyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen gidiyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen gidiyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben üzgün uyuyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben nasılsın.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben ne.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yorgun uyuyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne ben uyuyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede o gidiyorum?",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nasılsın?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben gidiyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o konuşuyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen ne?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yapıyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o nerede.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın ben yapıyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "o yapıyorum?",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "nerede sen gidiyorum?",
+    "tokens": [
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nasılsın?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen mutlu uyuyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "mutlu",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "sevinçli, neşeli"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen konuşuyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o gidiyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "gidiyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir yere doğru hareket etmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben uyuyorum?",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "o üzgün yapıyorum.",
+    "tokens": [
+      {
+        "word": "o",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "üçüncü kişi"
+      },
+      {
+        "word": "üzgün",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "kederli, mutsuz"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "nasılsın sen yapıyorum.",
+    "tokens": [
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yapıyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "bir işi gerçekleştirmek"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun uyuyorum.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ben yorgun konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ben",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "ne sen konuşuyorum.",
+    "tokens": [
+      {
+        "word": "ne",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "bilinmeyeni sormak için kullanılır"
+      },
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "konuşuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "sözlü iletişim kurmak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen yorgun uyuyorum?",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "yorgun",
+        "pos": "adjective",
+        "role": "sıfat",
+        "meaning": "enerjisi azalmış"
+      },
+      {
+        "word": "uyuyorum",
+        "pos": "verb",
+        "role": "yüklem",
+        "meaning": "dinlenmek için gözleri kapatmak"
+      },
+      {
+        "word": "?",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "soru cümlesi olduğunu belirtir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nasılsın.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nasılsın",
+        "pos": "question",
+        "role": "yüklem",
+        "meaning": "hal-hatır sormak"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  },
+  {
+    "sentence": "sen nerede.",
+    "tokens": [
+      {
+        "word": "sen",
+        "pos": "pronoun",
+        "role": "özne",
+        "meaning": "konuşulan kişi"
+      },
+      {
+        "word": "nerede",
+        "pos": "question",
+        "role": "soru eki",
+        "meaning": "yer sormak için kullanılır"
+      },
+      {
+        "word": ".",
+        "pos": "punct",
+        "role": "cümle sonu",
+        "meaning": "ifadeyi bitirir"
+      }
+    ]
+  }
+]
